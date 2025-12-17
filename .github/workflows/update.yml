@@ -2,8 +2,11 @@ name: Update GommeHD IP List
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # täglich 03:00 UTC
+    - cron: "0 3 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update:
@@ -34,5 +37,6 @@ jobs:
             git add gommehd-ips.txt
             git commit -m "Auto-update GommeHD IP list"
             git push
+          else
+            echo "No changes."
           fi
-
