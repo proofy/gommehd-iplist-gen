@@ -1,9 +1,8 @@
 # Auto-generated GommeHD IP list
 # Source: public Minecraft trackers
 128.140.113.221
-141.95.36.142
 49.12.17.143
 50.114.4.19
 50.114.4.72
 51.89.76.19
-74.249.79.48
+64.236.143.35
